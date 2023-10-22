@@ -1,0 +1,66 @@
+@import url("style.css");
+@import url("animate.css");
+@import url("animate.min.css");
+@import url("bootstrap.min.css");
+@import url("dashboard.css");
+@import url("index.css");
+@import url("owl.carousel.css");
+@import url("owl.carousel.min.css");
+@import url("owl.theme.default.css");
+@import url("owl.theme.default.min.css");
+@import url("owl.theme.green.css");
+@import url("owl.theme.green.min.css");
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+/*
+ * Bootstrap v5.0.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)*/
+ 
+
+ 
