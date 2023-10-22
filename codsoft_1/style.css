@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(120deg,white,rgba(231, 226, 226, 0.623),rgb(241, 232, 232));
+}
+
+
+.title-tag{
+    padding: 0;
+    font-size: 58px;
+    text-align: center;
+    font-weight: 250;
+    font-style: oblique;
+}
+
+#early-life{
+    padding: 40px 0;
+    color: rgb(58, 57, 57);
+}
+
+.title::before{
+    content: '';
+    background: rgba(10, 10, 10, 0.600);
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
+    width: 200px;
+    display: block;
+    border-radius: 70px;
+    transform: translateY(46px);
+}
+
+#heading{
+    align-items: center; 
+    align-content: center;
+    margin-left: 170px;
+}
+
+
+#quote{
+    padding: 0;
+    background-color: rgba(10, 10, 10, 0.637);
+    color: beige;
+    font-size: 29px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-content{
+    text-align: left;
+}
+
+.quote-name{
+    text-align: right;
+}
+
+#pixar{
+    margin-top: 30px;
+}
+
+.timeline-content{
+    width: 400px;
+    text-align: left;
+    margin-left: 32%;
+    padding: 0 20px 0 30px;
+}
+
+
+.timeline-box{
+    padding: 15px 30px;
+    margin-top: 5%;
+    border-left: 2px solid #ccc;
+    border-radius: 7px;
+}
+
+.timeline-box p{
+    font-size: 14px;
+}
+
+timeline-content::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: -40px;
+
+}
+
+timeline-content::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: dotted;
+    border-width: 8px;
+    border-color: blue;
+    position: absolute;
+    left: -17px;
+    top: 10px;
+}
